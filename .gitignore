@@ -1,0 +1,12 @@
+# 密钥与凭据绝不入库
+llm_key.txt
+feishu_app_id.txt
+feishu_app_secret.txt
+
+# 运行时产物（记忆与产出含私人对话内容，不入库）
+memory/
+workspace/*
+!workspace/.gitkeep
+
+__pycache__/
+*.pyc
